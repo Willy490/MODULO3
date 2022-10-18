@@ -1,0 +1,42 @@
+/*EDUCACIÓN*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Rancho&family=Water+Brush&display=swap');
+.contenedor-edu{
+    display: flex;
+    min-height: 92vh;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+.contenedor-edu .edu-titulo{
+    font-size: 40px;
+    color: rgba(255, 255, 255, 0.685);
+}
+
+/*primaria*/
+.edu-primaria{
+    border-radius: 20px;
+    height: 350px;
+    margin-right: 20px;
+    background: #2b5876;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #362c58, #2f6488);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #362c58, #2f6488); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.edu-primaria h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 22px;
+    color: rgba(255, 255, 255, 0.685);
+}
+
+.edu-primaria p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 22px;
+    color: rgba(255, 255, 255, 0.685);
+}
+
+.edu-primaria img{
+    width: 120px;
+    filter: drop-shadow(1px 1px 1px rgb(121, 118, 118));
+}

@@ -1,0 +1,21 @@
+<div class="container text-center" *ngFor="let educacionTerciaria of educacionTerciaria">
+  <div class="row gy-5">
+    <div class="col">
+      <div class="p-3 edu-argprograma shadow-lg">
+        <h2>{{educacionTerciaria.institucion}}</h2>
+        <p>TITULO: <span>{{educacionTerciaria.titulo}}</span></p>
+        <h2>{{educacionTerciaria.inicio}}/{{educacionTerciaria.fin}}</h2>
+        <div class="edu-argprograma-img">
+          <img src={{educacionTerciaria.imghtml}} alt="" srcset="">
+          <img src={{educacionTerciaria.imgcss}} alt="" srcset="">
+          <img src={{educacionTerciaria.imgbootstrap}} alt="" srcset="">
+          <img src={{educacionTerciaria.imgjs}} alt="" srcset="">
+          <img src={{educacionTerciaria.imgts}} alt="" srcset="">
+          <img src={{educacionTerciaria.imgreact}} alt="" srcset="">
+          <img src={{educacionTerciaria.imgangular}} alt="" srcset="">
+          <img src={{educacionTerciaria.imgjava}} alt="" srcset="">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

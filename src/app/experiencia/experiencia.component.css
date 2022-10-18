@@ -1,0 +1,28 @@
+/*EXPERIENCIA*/
+.experiencia-e{
+    display: flex;
+    min-height: 92vh;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    background: rgba(33, 23, 78, 0.151);
+}
+
+.experiencia-e_{
+    border-radius: 20px;
+    height: 350px;
+    margin-right: 20px;
+    background: #2b5876;
+    background: -webkit-linear-gradient(to right, #362c58, #2f6488);
+    background: linear-gradient(to right, #362c58, #2f6488);
+}
+.experiencia-e_ h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 26px;
+    color: #ffffff;
+}
+
+.experiencia-e_ h2 p{
+    color:  rgb(255, 255, 255);
+}

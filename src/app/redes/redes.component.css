@@ -1,0 +1,51 @@
+
+
+.fa-brands.fa-linkedin.fa-xl{
+    color: #fff;
+}
+
+.fa-brands.fa-linkedin.fa-xl:hover{
+    color: #ff00cc;  /* fallback for old browsers */
+color: -webkit-linear-gradient(to right, #333399, #ff00cc);  /* Chrome 10-25, Safari 5.1-6 */
+color: linear-gradient(to right, #333399, #ff00cc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.fa-brands.fa-github.fa-xl{
+    color: #fff;
+}
+
+.fa-brands.fa-github.fa-xl:hover{
+    color: #ff00cc;  /* fallback for old browsers */
+color: -webkit-linear-gradient(to right, #333399, #ff00cc);  /* Chrome 10-25, Safari 5.1-6 */
+color: linear-gradient(to right, #333399, #ff00cc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.fa-solid.fa-user.fa-xl{
+    color: #fff;
+}
+
+.fa-solid.fa-user.fa-xl:hover{
+    color: #ff00cc;  /* fallback for old browsers */
+    color: -webkit-linear-gradient(to right, #333399, #ff00cc);  /* Chrome 10-25, Safari 5.1-6 */
+    color: linear-gradient(to right, #333399, #ff00cc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.fa-solid.fa-user-lock.fa-xl{
+    color: #fff;
+}
+
+.fa-solid.fa-user-lock.fa-xl:hover{
+    color: #ff00cc;  /* fallback for old browsers */
+color: -webkit-linear-gradient(to right, #333399, #ff00cc);  /* Chrome 10-25, Safari 5.1-6 */
+color: linear-gradient(to right, #333399, #ff00cc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.list-group-item{
+    --bs-list-group-bg: transparent;
+    border: var(--bs-list-group-border-width) solid var(--bs-list-group-border-color);
+    color: #fff;
+}
+
+li.list-group-item{
+    border:none;
+}
+

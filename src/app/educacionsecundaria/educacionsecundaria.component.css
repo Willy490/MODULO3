@@ -1,0 +1,33 @@
+
+/*secundaria*/
+.edu-secundaria{
+    border-radius: 20px;
+    height: 350px;
+    background: #2b5876;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #362c58, #2f6488);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2f6488, #362c58); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+.edu-secundaria h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 22px;
+    color: rgba(255, 255, 255, 0.685);
+}
+
+.edu-secundaria p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 22px;
+    color: rgba(255, 255, 255, 0.685);
+}
+
+.edu-secundaria p span{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 22px;
+    color:#ff00cc;
+}
+
+.edu-secundaria img{
+    width: 100px;
+    filter: drop-shadow(1px 1px 1px rgb(121, 118, 118));
+}

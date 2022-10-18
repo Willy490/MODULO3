@@ -1,0 +1,33 @@
+ <!--Reservado para PROYECTOS-->
+ <section>
+    <div class="contenedor-proyectos">
+      <div class="container proyectostitulo overflow-hidden text-center">
+        <h2>PROYECTOS</h2>
+        <div class="row gy-5" >
+          <div class="col-6">
+            <div class="p-3 proyecto1 shadow"  *ngFor="let proyecto of proyectos">
+              <img src={{proyecto.logo}} alt="logo" width="100">
+              <h2>{{proyecto.tituloProyecto}}</h2>
+              <h2>{{proyecto.inicio}}/{{proyecto.fin}}</h2><br>
+              <p class="pdescrip">{{proyecto.descipcion}}</p>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="p-3 proyecto2 shadow">
+              <h2>PROYECTO 2</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container text-center">
+        <div class="row gy-5">
+          <div class="col">
+            <div class="p-3 proyecto3 shadow-lg">
+              <h2>PROYECTO 3</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+  </section>

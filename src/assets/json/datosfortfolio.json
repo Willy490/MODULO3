@@ -1,0 +1,150 @@
+{
+        "id":1,
+        "nombre": "Wilian",
+        "apellido": "Fariña", 
+        "tituloPerfil": "FullStack Developer",
+        "direccion": "Buenos Aires, Argentina",
+        "Un poco sobre mi": "Estudiante en la carrera Desarrollador web, soy una persona proactiva, eficaz que ama la tecnologia como los videojuegos.",
+
+
+
+    "experiencias": [
+        {
+            "id":1,
+            "LogoEmpresa": ".assets/img/oasislubricantes",
+            "nombreEmpresa": "Lubricantes Oasis",
+            "puesto": "administracion y atencion al cliente",
+            "descripcion": "Manejo de stock, atencion al cliente"
+        },
+        {
+            "id":2,
+            "nombreEmpresa": "Kiosco Stock y Quinielas",
+            "puesto": "atencion al cliente",
+            "descripcion": "atencion al cliente"
+        },
+        {
+            "id":3,
+            "LogoEmpresa": "",
+            "nombreEmpresa": "Tostados cafe club",
+            "puesto": "Barista, cajero",
+            "descripcion": "Atencion al cliente y despacho"
+        },
+        {
+            "id":4,
+            "LogoEmpresa": "",
+            "nombreEmpresa": "Le Blé",
+            "puesto": "Bachero",
+            "descripcion": "limpieza de cocina(lavado, secado y orden)"
+        }
+    ],
+
+
+    
+
+    "educacionPrimaria": [
+        {
+            "id": 1,
+            "institucion": "Escuela De Educación PRIMARIA Nro 80 Juan Bautista Azopardo",
+            "inicio": "2005",
+            "fin": "2010",
+            "img": "assets/img/iconoprimaria.png"
+        }],
+
+    "educacionSecundaria":[
+            {   
+            "id": 2,
+            "institucion": "Escuela de Educación Secundaria Nº 11 TOMÁS GUIDO",
+            "inicio": "2011",
+            "fin": "2017",
+            "titulo" : "Bachiller en ",
+            "titulocolor":"ECONOMIA y ADMINISTRACIÓN",
+            "img": "assets/img/iconosecundaria.png"
+        }],
+        
+    "educacionTerciaria":[
+        {
+            "id": 3,
+            "institucion": "Argentina programa - Instituto Nacional de Tecnología Industrial (INTI)",
+            "inicio": "febrero 2022",
+            "fin": "enero 2023",
+            "titulo": "Desarrollador Web FullStack",
+            "imghtml": "./assets/img/html-5.png",
+            "imgcss": "./assets/img/css-3.png",
+            "imgbootstrap": "./assets/img/bootstrap.png",
+            "imgjs": "./assets/img/js.png",
+            "imgts": "./assets/img/typescript.png",
+            "imgreact": "./assets/img/react.png",
+            "imgangular": "./assets/img/angular.png",
+            "imgjava": "./assets/img/java.png"
+        }
+    ],
+
+
+    "skills": [
+        {
+            "id": 1,
+            "habilidad":"HTML",
+            "porcentaje": "80",
+            "color":"bg-success"
+    },
+    {
+            "id": 2,
+            "habilidad":"Bootstrap",
+            "porcentaje": "35",
+            "color":"bg-info"
+    },
+    {
+            "id": 3,
+            "habilidad":"Angular",
+            "porcentaje": "20",
+            "color":"bg-warning"
+    },
+    {
+            "id": 4,
+            "habilidad":"Java",
+            "porcentaje": "80",
+            "color":"bg-danger"
+    },
+    {
+            "id": 5,
+            "habilidad":"CSS",
+            "porcentaje": "60",
+            "color":"bg-success"
+    },
+    {
+            "id": 6,
+            "habilidad":"Javascript",
+            "porcentaje": "25",
+            "color":"bg-info"
+    },
+    {
+            "id": 7,
+            "habilidad":"Node js",
+            "porcentaje": "25",
+            "color":"bg-danger"
+    },
+    {
+            "id": 8,
+            "habilidad":"otro",
+            "porcentaje": "40"
+    }
+    
+
+    ],
+
+    "proyectos": [
+        {
+            "id": 1,
+            "logo": "./assets/img/logo argP.png",
+            "tituloProyecto" : "Armado de Login",
+            "urlProyecto": "urlAPLogo",
+            "inicio": "01-08-2022",
+            "fin": "13-01-2023" ,
+            "descipcion": "Armado de login con campos y detalles sugeridos en trabajo práctico Argentina Programa "
+
+        }
+    ]
+
+
+
+}
